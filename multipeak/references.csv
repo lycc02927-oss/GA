@@ -1,0 +1,2 @@
+﻿data_model,model_name,target,reference_method,reference_value,reference_x,reference_y,reference_z
+6,多峰高斯,ed,numerical_rbf_no_jitter,0.6011154653828362,160.26222295733277,80.08913989078911,80.07983785654972

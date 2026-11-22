@@ -1,0 +1,60 @@
+{
+  "source": "upstream",
+  "output": "confirmed",
+  "models": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "population": 8,
+  "generations": 4,
+  "workers": 8,
+  "initial": 20,
+  "rounds": 20,
+  "ga_seed": 2026,
+  "train_seeds": [
+    42,
+    43,
+    44,
+    45
+  ],
+  "valid_seeds": [
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251
+  ],
+  "upstream_expected": "32f0d18437fbc73a0c1458bb121286c59f4ed2b6",
+  "source_sha256": {
+    "EI.py": "b774886df10d77d9f35030e8514ee69b988f218d4d4346e8be667abac060b5c4",
+    "GPR.py": "8d1677a52195356763bb36b69c065e0437652bf8a7dad7b91f747b3710897bf4",
+    "LHS.py": "1a65d0a2d38259141901e159a1bc2f3ddf78e975bd87c535a22352e3c2551685",
+    "batch_test.py": "346505ce6394b3e51faf254e3d4bb75ebfcc9147650668c04f4aeca1a1d7cd12",
+    "fitter.py": "75017b1cda423ad1c3c30501c825a4240a2078f76f50438c10a35ac88bb8f509",
+    "formula_models.py": "4d1db6729cc63d23ef8a49818f303540737014b02a2b07c5afa6a5d7f342ed97",
+    "kernel.py": "e2f34ca900ec10f927a29f826909c781ef2acc868aee59d93b213de0be3c0fca",
+    "measurement_data.py": "55c8722b9c12ccba9f70b2fa06f04d5d749ef3ad566e858085e4fec5c090c01a",
+    "search.py": "b7a012b0af02810ef9b7b73b85282a56b42ce2c98cdc1672ac00a5f38a95be2a",
+    "fit_models/__init__.py": "17734bee584a6db4eee25f8af257cd317bafe7aed56f59af88db3921f759638a",
+    "fit_models/base.py": "1d0009398f717533efd374d34e5355bc77d21405a6c215834b69c1a037131398",
+    "fit_models/factory.py": "a35f397bc1a34880a62fa603ae2e5d92b4aa56fa3d6590ff2190e98ea868ad89",
+    "fit_models/linear_model.py": "2cbb51c01576b1f43c2c7e9b18c4a97f28dea8942b435d08ea98f9fecf05c3d6",
+    "fit_models/manual_gpr.py": "10802e1672690d44855f990d3b3f88bdef2d6f1d51472d774aea709ae7fc034f",
+    "fit_models/polynomial_model.py": "6bafd422ed2a9b5481ce8247aaca6d32e50f812d27d31ff40d70781393827225",
+    "fit_models/rbf_model.py": "4b2c662a016ff311f440cee63c19d9de855c22f64afc8d9a4a17276223041a02",
+    "fit_models/svm_model.py": "e9349e18a3f7dd710b727ef2b77e657a65f6f5679f75a0bc215e324fa62315be"
+  },
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "profile": "standard"
+}
